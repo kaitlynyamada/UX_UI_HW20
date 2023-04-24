@@ -1,0 +1,97 @@
+/* 
+=========================================================================
+color styles
+========================================================================= 
+*/
+:root {
+    --color-eggplant: #472836;
+    --color-violet: #87677B;
+    --color-pink: #BDA1AD;
+}
+/* 
+=========================================================================
+hero
+========================================================================= 
+*/
+.hero-title {
+    margin: 50px 20px 50px 20px;
+}
+
+.hero-description {
+    width: 50%;
+    margin: 50px 20px;
+}
+
+.hero-timelineunderline {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 24px;
+}
+
+.hero-timelinecontent {
+    width: 50%;
+    border-bottom: 4px solid var(--color-violet);
+}
+
+.hero-roleunderline {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 24px;
+}
+
+.hero-rolecontent {
+    width: 50%;
+    border-bottom: 4px solid var(--color-violet);
+}
+
+.hero-collaboratorsunderline {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 24px;
+}
+
+.hero-collaboratorscontent{
+    width: 50%;
+    border-bottom: 4px solid var(--color-violet);
+}
+
+/* 
+=========================================================================
+case study nav
+========================================================================= 
+*/
+.navigation {
+    margin-top: 100px;
+}
+.navigationunderline {
+    display: flex;
+}
+
+.navigationunderline-content {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    border-top: 4px solid var(--color-violet);
+}
+
+.casestudynav {
+    margin: 20px;
+}
+
+/* 
+=========================================================================
+overview
+========================================================================= 
+*/
+.overview{
+    margin-top: 100px;
+}
+.overviewunderline {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.overviewunderline-content {
+    width: 80%;
+    border-bottom: 4px solid var(--color-violet);
+}
