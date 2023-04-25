@@ -108,3 +108,67 @@ overview
     margin-right: 20px;
     margin-top: 50px;
 }
+/* 
+=========================================================================
+the product
+========================================================================= 
+*/
+.productunderline {
+    display: flex;
+    flex-direction: flex-end;
+}
+
+.productunderline-content {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    border-top: 4px solid var(--color-violet);
+}
+
+.product-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.product-homevisual {
+    width: 50%;
+    margin: 20px 50px;
+}
+
+.product-homewriting {
+    width: 50%;
+    margin: 20px 100px; 
+}
+
+.product-addwater {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.product-addwatervisual {
+    width: 50%;
+    margin:  20px 50px;
+}
+
+.product-addwaterwriting {
+    width: 50%;
+    margin: 20px 100px;
+    text-align: right;
+}
+
+.product-challenge { 
+    display: flex;
+    align-items: center;
+}
+
+.product-challengevisual {
+    width: 50%;
+    margin: 20px 50px;
+}
+
+.product-challengewriting {
+    width: 50%;
+    margin: 20px 100px;
+}
