@@ -171,4 +171,18 @@ the product
 .product-challengewriting {
     width: 50%;
     margin: 20px 100px;
+}/* 
+=========================================================================
+user research
+========================================================================= 
+*/
+.user-researchunderline {
+    display: flex;
+    flex-direction: row-reverse;
 }
+
+.user-researchunderline-content {
+    width: 80%;
+    border-bottom: 4px solid var(--color-violet);
+}
+
