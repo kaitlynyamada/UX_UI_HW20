@@ -188,7 +188,7 @@ user research
 
 .user-researchcontent {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 .user-research-writing {
