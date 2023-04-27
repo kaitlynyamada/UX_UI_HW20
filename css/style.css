@@ -172,6 +172,10 @@ the product
     width: 50%;
     margin: 20px 100px;
 }
+
+.product-homevisual img {
+    width: 100%;
+}
 /* 
 =========================================================================
 user research
@@ -246,12 +250,25 @@ testing & iterating
 }
 
 .testing-iteratingcontent {
-    width: 50%
-    padding: 100px;
     display: flex;
-    flex-direction: row;
-    align-items: right;
+    flex-direction: row-reverse;
+    padding: 50px;
 }
 
+.testing-iteratingwriting {
+    width: 50%;
+    text-align: right;
+}
+
+.testing-iteratingvisual img {
+    width: 100%;
+    margin: 0;
+}
+
+/* 
+=========================================================================
+the final product
+========================================================================= 
+*/
 
 
