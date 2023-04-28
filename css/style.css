@@ -173,9 +173,6 @@ the product
     margin: 20px 100px;
 }
 
-.product-homevisual img {
-    width: 100%;
-}
 /* 
 =========================================================================
 user research
@@ -270,5 +267,63 @@ testing & iterating
 the final product
 ========================================================================= 
 */
+
+/* 
+=========================================================================
+reflection
+========================================================================= 
+*/
+
+.reflectionunderline {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.reflectionunderline-content {
+    width: 80%;
+    text-align: right;
+    border-bottom: 4px solid var(--color-violet);
+}
+
+.reflectioncontent-writing {
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+/* 
+=========================================================================
+footer
+========================================================================= 
+*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px;
+    background-color: var(--color-pink);
+}
+
+.footer-logo img {
+    width: 250px;
+    height: auto;
+}
+
+.footer-nav ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: var(--color-eggplant)
+
+
+
+
+
 
 
